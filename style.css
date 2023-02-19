@@ -1,0 +1,58 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.globale{
+    background-color: white;
+    width: 330px;
+    margin: auto;
+    border-radius: 10px;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+article img{
+    width: 300px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.qrcode{
+    display: flex;
+}
+.descriptif{
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+main{
+    height: 98vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+}
+h1{
+    color:hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 10px;
+}
+
+
